@@ -1,4 +1,4 @@
-streamlit==0.61.0
-pandas==0.25.3
-numpy==1.19
-scikit-learn==0.22.1
+streamlit==1.22.0
+pandas==1.5.3
+numpy==1.23.5
+scikit-learn==1.2.1
