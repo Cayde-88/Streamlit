@@ -66,7 +66,7 @@ prediction = model.predict(df)
 
 # print prediction
 st.header('Prediction of MEDV')
-st.write(prediction)
+st.write("<span style='color: black; font-size:20px'>"+[prediction][0] +"</span>", unsafe_allow_html=True)
 st.write('---')
 
 # Explaining the model's predictions using SHAP values
